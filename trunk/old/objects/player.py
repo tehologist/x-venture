@@ -34,7 +34,7 @@ class player:
         if len(var) >= 2:
             lib.kfun.send_out(self.id, "\nThis room contains.")
             for things in var:
-                if things.name != self.name:
+                if str(things.name) != str(self.name):
                     lib.kfun.send_out(self.id, "%s\n" % str(things.name))
         
     def do_go(self, args):
