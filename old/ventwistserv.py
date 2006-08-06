@@ -60,8 +60,8 @@ def timepassed():
     for a in kfun.people:
         a.conn.message("Five seconds has passed.\r")
 
-l = task.LoopingCall(timepassed)
-l.start(5.0)
+#l = task.LoopingCall(timepassed)
+#l.start(5.0)
 
 factory = protocol.ServerFactory()
 factory.protocol = telmud
