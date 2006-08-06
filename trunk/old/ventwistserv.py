@@ -45,7 +45,7 @@ class telmud(basic.LineReceiver):
                     if pers.handler == "login":
                         pers.login(line)
                     else:
-                        lib.kfun.inbuffer.append((pers.id, line))
+                        lib.kfun.inbuffer.append((pers.id, str(line)))
                         lib.kfun.get_input()
         
             
