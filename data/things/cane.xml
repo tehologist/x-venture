@@ -1,0 +1,11 @@
+<object>
+<id>10</id>
+<name>A Cane</name>
+<description>This is a plain wooden cane.</description>
+<class>gobjects</class>
+<location>2</location>
+<attributes>
+<label>carryable<data type="int">1</data></label>
+<label>visible<data type="string">True</data></label>
+</attributes>
+</object>

@@ -1,0 +1,9 @@
+<room>
+<id>2</id>
+<name>Bathroom</name>
+<description>This is the restroom. There is a shiny toilet, freshly cleaned.</description>
+<class>room</class>
+<portals>
+<name>west<exit>1</exit></name>
+</portals>
+</room>

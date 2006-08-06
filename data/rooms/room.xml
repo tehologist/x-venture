@@ -1,0 +1,10 @@
+<room>
+<id>1</id>
+<name>Living Room</name>
+<description>This is a nice room. With a fireplace. White walls, lit candles, and a high ceiling.</description>
+<class>room</class>
+<portals>
+<name>east<exit>2</exit></name>
+<name>up<exit>4</exit></name>
+</portals>
+</room>
