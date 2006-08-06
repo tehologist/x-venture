@@ -1,0 +1,9 @@
+<room>
+<id>4</id>
+<name>The Attic</name>
+<description>Very dusty with lots of cobwebs.</description>
+<class>room</class>
+<portals>
+<name>down<exit>1</exit></name>
+</portals>
+</room>
