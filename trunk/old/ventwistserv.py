@@ -17,7 +17,7 @@ class person:
             self.conn.message("What is your name?\r")
             self.handler = "login"
         else:
-            self.name = name
+            self.name = str(name)
             self.conn.message("Welcome %s\r" % (self.name))
             aplayer = lib.kfun.create_player(self.name, "A person")
             self.id = aplayer.id
