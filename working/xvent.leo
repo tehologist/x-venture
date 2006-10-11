@@ -27,8 +27,8 @@ expanded="234.20061005231611,"><vh>@thin .\\Lib\\mudParser.py</vh></v>
 
 import os
 os.chdir("c:\\xvent\\working")
-os.system("cmd /c epydoc.py -o .\docs\html ./Lib/mudParser.py  &gt;&gt; ./Logs/epylog.txt 2&gt;&amp;1")
-os.system("cmd /c epydoc.py -o .\docs\pdf --pdf ./Lib/mudParser.py  &gt;&gt; ./Logs/epylog.txt 2&gt;&amp;1")
+os.system("cmd /c epydoc.py -o .\docs\html ./Lib &gt;&gt; ./Logs/epylog.txt 2&gt;&amp;1")
+os.system("cmd /c epydoc.py -o .\docs\pdf --pdf ./Lib  &gt;&gt; ./Logs/epylog.txt 2&gt;&amp;1")
 c.frame.log.selectTab('Epydoc')
 bleh = open(".\\Logs\\epylog.txt")
 g.es(bleh.read(),tabName='Epydoc')
