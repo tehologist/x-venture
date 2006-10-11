@@ -1,0 +1,45 @@
+FFFFF
+======================================================================
+FAIL: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 55, in runTest
+    assert inst.getverb(sentence) == [["PURPLE","BIRD","HOUSE"],[None]],"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.getprepTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 48, in runTest
+    assert inst.getverb(sentence) == [["AT"],["PURPLE","BIRD","HOUSE"]],"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.getverbTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 42, in runTest
+    assert inst.getverb(sentence) == [["LOOK"],["AT","PURPLE","BIRD","HOUSE"]],"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 62, in runTest
+    assert inst.getverb(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"]},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.stripcapTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 35, in runTest
+    assert inst.stripcap(sentence) == ["LOOK","AT","PURPLE","BIRD","HOUSE"],"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.016s
+
+FAILED (failures=5)
