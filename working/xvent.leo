@@ -9,8 +9,8 @@
 <find_panel_settings/>
 <vnodes>
 <v t="234.20061005225913" a="E"><vh>Buttons and settings</vh>
-<v t="234.20061005210354" a="TV"><vh>@button epydoc</vh></v>
-<v t="234.20061005222732"><vh>@button unittest</vh></v>
+<v t="234.20061005210354"><vh>@button epydoc</vh></v>
+<v t="234.20061005222732" a="V"><vh>@button unittest</vh></v>
 </v>
 <v t="234.20061005225913.1" a="E"><vh>Libs</vh>
 <v t="234.20061005223719"><vh>@thin .\\Lib\\__init__.py</vh></v>
@@ -35,7 +35,7 @@ g.es(bleh.read(),tabName='Epydoc')
 bleh.close()
 os.startfile('.\\docs\\html\\index.html')</t>
 <t tx="234.20061005222732">import os
-os.chdir("c:\\working")
+os.chdir("c:\\xvent\\working")
 os.system("cmd /c python ./Tests/mudParseTest.py &gt;&gt; .\Logs\unittest.txt 2&gt;&amp;1")
 c.frame.log.selectTab('Unit Test')
 bleh = open(".\\Logs\\unittest.txt")
