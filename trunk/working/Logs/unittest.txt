@@ -1,0 +1,362 @@
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 11, in ?
+    import unittes
+ImportError: No module named unittes
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 17, in ?
+    inst = mudparse.stripcap()
+TypeError: unbound method stripcap() must be called with mudparse instance as first argument (got nothing instead)
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 17, in ?
+    inst = mudparse.stripcap()
+TypeError: unbound method stripcap() must be called with mudparse instance as first argument (got nothing instead)
+F
+======================================================================
+FAIL: runTest (__main__.stripcapTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 26, in runTest
+    assert inst.stripcap(sentence) == ["LOOK","AT","PURPLE","BIRD","HOUSE"]
+AssertionError
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (failures=1)
+FF
+======================================================================
+FAIL: runTest (__main__.getverbTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 31, in runTest
+    assert inst.getverb(sentence) == "LOOK"
+AssertionError
+
+======================================================================
+FAIL: runTest (__main__.stripcapTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 26, in runTest
+    assert inst.stripcap(sentence) == ["LOOK","AT","PURPLE","BIRD","HOUSE"]
+AssertionError
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+FAILED (failures=2)
+FF
+======================================================================
+FAIL: runTest (__main__.getverbTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 31, in runTest
+    assert inst.getverb(sentence) == "LOOK"
+AssertionError
+
+======================================================================
+FAIL: runTest (__main__.stripcapTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 26, in runTest
+    assert inst.stripcap(sentence) == ["LOOK","AT","PURPLE","BIRD","HOUSE"]
+AssertionError
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+FAILED (failures=2)
+FF
+======================================================================
+FAIL: runTest (__main__.getverbTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 31, in runTest
+    assert inst.getverb(sentence) == "LOOK"
+AssertionError
+
+======================================================================
+FAIL: runTest (__main__.stripcapTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 26, in runTest
+    assert inst.stripcap(sentence) == ["LOOK","AT","PURPLE","BIRD","HOUSE"]
+AssertionError
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+FAILED (failures=2)
+FF
+======================================================================
+FAIL: runTest (__main__.getverbTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 31, in runTest
+    assert inst.getverb(sentence) == "LOOK"
+AssertionError
+
+======================================================================
+FAIL: runTest (__main__.stripcapTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 26, in runTest
+    assert inst.stripcap(sentence) == ["LOOK","AT","PURPLE","BIRD","HOUSE"]
+AssertionError
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+FAILED (failures=2)
+FF
+======================================================================
+FAIL: runTest (__main__.getverbTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 33, in runTest
+    assert inst.getverb(sentence) == "LOOK"
+AssertionError
+
+======================================================================
+FAIL: runTest (__main__.stripcapTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 26, in runTest
+    assert inst.stripcap(sentence) == ["LOOK","AT","PURPLE","BIRD","HOUSE"]
+AssertionError
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+FAILED (failures=2)
+FF
+======================================================================
+FAIL: runTest (__main__.getverbTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 33, in runTest
+    assert inst.getverb(sentence) == "LOOK", ["AT","PURPLE","BIRD","HOUSE"]
+AssertionError: ['AT', 'PURPLE', 'BIRD', 'HOUSE']
+
+======================================================================
+FAIL: runTest (__main__.stripcapTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 26, in runTest
+    assert inst.stripcap(sentence) == ["LOOK","AT","PURPLE","BIRD","HOUSE"]
+AssertionError
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+FAILED (failures=2)
+FF
+======================================================================
+FAIL: runTest (__main__.getverbTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 33, in runTest
+    assert inst.getverb(sentence) == [["LOOK"],["AT","PURPLE","BIRD","HOUSE"]]
+AssertionError
+
+======================================================================
+FAIL: runTest (__main__.stripcapTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 26, in runTest
+    assert inst.stripcap(sentence) == ["LOOK","AT","PURPLE","BIRD","HOUSE"]
+AssertionError
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+FAILED (failures=2)
+FF
+======================================================================
+FAIL: runTest (__main__.getverbTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 33, in runTest
+    assert inst.getverb(sentence) == [["LOOK"],["AT","PURPLE","BIRD","HOUSE"]],"IT's Broke Dude."
+AssertionError: IT's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.stripcapTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 26, in runTest
+    assert inst.stripcap(sentence) == ["LOOK","AT","PURPLE","BIRD","HOUSE"]
+AssertionError
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+FAILED (failures=2)
+FF
+======================================================================
+FAIL: runTest (__main__.getverbTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 33, in runTest
+    assert inst.getverb(sentence) == [["LOOK"],["AT","PURPLE","BIRD","HOUSE"]],"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.stripcapTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 26, in runTest
+    assert inst.stripcap(sentence) == ["LOOK","AT","PURPLE","BIRD","HOUSE"],"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+FAILED (failures=2)
+  File "./Tests/mudParseTest.py", line 39
+    assert inst.getverb(sentence) == [["AT"],["PURPLE","BIRD","HOUSE"]],"It's Broke Dude.
+                                                                                        ^
+SyntaxError: EOL while scanning single-quoted string
+FFF
+======================================================================
+FAIL: runTest (__main__.getprepTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 39, in runTest
+    assert inst.getverb(sentence) == [["AT"],["PURPLE","BIRD","HOUSE"]],"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.getverbTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 33, in runTest
+    assert inst.getverb(sentence) == [["LOOK"],["AT","PURPLE","BIRD","HOUSE"]],"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.stripcapTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 26, in runTest
+    assert inst.stripcap(sentence) == ["LOOK","AT","PURPLE","BIRD","HOUSE"],"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+FAILED (failures=3)
+FFF
+======================================================================
+FAIL: runTest (__main__.getprepTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 46, in runTest
+    assert inst.getverb(sentence) == [["PURPLE","BIRD","HOUSE"],[None]],"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.getverbTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 33, in runTest
+    assert inst.getverb(sentence) == [["LOOK"],["AT","PURPLE","BIRD","HOUSE"]],"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.stripcapTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 26, in runTest
+    assert inst.stripcap(sentence) == ["LOOK","AT","PURPLE","BIRD","HOUSE"],"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+FAILED (failures=3)
+FFFF
+======================================================================
+FAIL: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 46, in runTest
+    assert inst.getverb(sentence) == [["PURPLE","BIRD","HOUSE"],[None]],"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.getprepTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 39, in runTest
+    assert inst.getverb(sentence) == [["AT"],["PURPLE","BIRD","HOUSE"]],"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.getverbTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 33, in runTest
+    assert inst.getverb(sentence) == [["LOOK"],["AT","PURPLE","BIRD","HOUSE"]],"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.stripcapTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 26, in runTest
+    assert inst.stripcap(sentence) == ["LOOK","AT","PURPLE","BIRD","HOUSE"],"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+FAILED (failures=4)
+  File "./Tests/mudParseTest.py", line 59
+    if __name__ == "__main__":
+     ^
+SyntaxError: invalid syntax
+FFFFF
+======================================================================
+FAIL: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 46, in runTest
+    assert inst.getverb(sentence) == [["PURPLE","BIRD","HOUSE"],[None]],"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.getprepTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 39, in runTest
+    assert inst.getverb(sentence) == [["AT"],["PURPLE","BIRD","HOUSE"]],"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.getverbTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 33, in runTest
+    assert inst.getverb(sentence) == [["LOOK"],["AT","PURPLE","BIRD","HOUSE"]],"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 53, in runTest
+    assert inst.getverb(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"]},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.stripcapTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 26, in runTest
+    assert inst.stripcap(sentence) == ["LOOK","AT","PURPLE","BIRD","HOUSE"],"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+FAILED (failures=5)

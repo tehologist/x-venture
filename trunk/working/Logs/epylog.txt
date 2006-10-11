@@ -1,0 +1,202 @@
+  [...............
++---------------------------------------------------------------------
+| In mudParser.py:
+| No documentation available!
+|     Error: Import failed:
+|            ImportError: No module named mudParser
+|   
+  Error: Nothing left to document!
+  Error: Could not find a file or object named ./Libs/mudParser.py
+  Error: Nothing left to document!
+  [.........................................................................]
+  [.........................................................................]
+  [.........................................................................]
+  [.........................................................................]
+usage: epydoc.py ACTION [options] NAMES...
+
+epydoc.py: error: no such option: -p
+  [.........................................................................]
+  [......................................................
+  Error: latex failed: File `fancyheadings.sty' not found.Running 
+         pdfetex...
+         This is pdfeTeX, Version 3.141592-1.30.6-2.2 (MiKTeX 2.5) 
+         (INITEX)
+         entering extended mode
+         ("C:\Program Files\MiKTeX 2.5\tex\latex\config\latex.ini"
+         ("C:\Documents and Settings\All Users\Application Data\
+         MiKTeX\2.5\tex\generic\c
+         onfig\pdftexconfig.tex")
+         ("C:\Program Files\MiKTeX 2.5\tex\latex\base\latex.ltx"
+         ("C:\Program Files\MiKTeX 2.5\tex\latex\00miktex\
+         texsys.cfg")
+         ./texsys.aux found
+
+
+         \@currdir set to: ./.
+
+
+         Assuming \openin and \input
+         have the same search path.
+
+
+         Defining UNIX/DOS style filename parser.
+
+         catcodes, registers, compatibility for TeX 2,  parameters,
+         LaTeX2e <2005/12/01>
+         hacks, control, par, spacing, files, font encodings, 
+         lengths,
+         ====================================
+
+         Local config file fonttext.cfg used
+
+         ====================================
+         ("C:\Program Files\MiKTeX 2.5\tex\latex\00miktex\
+         fonttext.cfg"
+         ("C:\Program Files\MiKTeX 2.5\tex\latex\base\fonttext.ltx"
+         === Don't modify this file, use a .cfg file instead ===
+
+         ("C:\Program Files\MiKTeX 2.5\tex\latex\base\omlenc.def")
+         ("C:\Program Files\MiKTeX 2.5\tex\latex\base\t1enc.def")
+         ("C:\Program Files\MiKTeX 2.5\tex\latex\base\ot1enc.def")
+         ("C:\Program Files\MiKTeX 2.5\tex\latex\base\omsenc.def")
+         ("C:\Program Files\MiKTeX 2.5\tex\latex\base\t1cmr.fd")
+         ("C:\Program Files\MiKTeX 2.5\tex\latex\base\ot1cmr.fd")
+         ("C:\Program Files\MiKTeX 2.5\tex\latex\base\ot1cmss.fd")
+         ("C:\Program Files\MiKTeX 2.5\tex\latex\base\ot1cmtt.fd")))
+         ====================================
+
+         Local config file fontmath.cfg used
+
+         ====================================
+         ("C:\Program Files\MiKTeX 2.5\tex\latex\00miktex\
+         fontmath.cfg"
+         ("C:\Program Files\MiKTeX 2.5\tex\latex\base\fontmath.ltx"
+         === Don't modify this file, use a .cfg file instead ===
+
+         ("C:\Program Files\MiKTeX 2.5\tex\latex\base\omlcmm.fd")
+         ("C:\Program Files\MiKTeX 2.5\tex\latex\base\omscmsy.fd")
+         ("C:\Program Files\MiKTeX 2.5\tex\latex\base\omxcmex.fd")
+         ("C:\Program Files\MiKTeX 2.5\tex\latex\base\ucmr.fd")))
+         ====================================
+
+         Local config file preload.cfg used
+
+         =====================================
+         ("C:\Program Files\MiKTeX 2.5\tex\latex\base\preload.cfg"
+         ("C:\Program Files\MiKTeX 2.5\tex\latex\base\preload.ltx")) 
+         page nos., x-ref,
+         environments, center, verbatim, math definitions, boxes, 
+         title, sectioning,
+         contents, floats, footnotes, index, bibliography, output,
+         ===========================================
+         Local configuration file hyphen.cfg used
+         ===========================================
+         ("C:\Program Files\MiKTeX 2.5\tex\generic\babel\hyphen.cfg"
+         ("C:\Program Files\MiKTeX 2.5\tex\generic\hyphen\
+         hyphen.tex")
+         ("C:\Program Files\MiKTeX 2.5\tex\generic\hyphen\
+         dumyhyph.tex")
+         ("C:\Program Files\MiKTeX 2.5\tex\generic\hyphen\
+         zerohyph.tex")
+         ("C:\Program Files\MiKTeX 2.5\tex\generic\hyphen\
+         dehypht.tex"
+         German Traditional Hyphenation Patterns `dehypht' Version 
+         3.2a <1999/03/03>
+         (Formerly known under the name `ghyph31' and `ghyphen'.))
+         ("C:\Program Files\MiKTeX 2.5\tex\generic\hyphen\
+         dehyphn.tex"
+         New German Hyphenation Patterns `dehyphn' Rev.31 <2001-05-07>
+         (WaS))
+         ("C:\Program Files\MiKTeX 2.5\tex\generic\hyphen\
+         frhyph.tex"
+         frhyph.tex - French hyphenation patterns (V2.11) <2002/01/
+         16>))
+         =================================
+         Applying patch file ltpatch.ltx
+         =================================
+         ("C:\Program Files\MiKTeX 2.5\tex\latex\base\ltpatch.ltx")
+          ) )
+         Beginning to dump on file latex.fmt
+          (preloaded format=latex 2006.10.7)
+         4836 strings of total length 62676
+         44003 memory locations dumped; current usage is 144&42059
+         3255 multiletter control sequences
+         \font\nullfont=nullfont
+         \font\OMX/cmex/m/n/10=cmex10
+         \font\tenln=line10
+         \font\tenlnw=linew10
+         \font\tencirc=lcircle10
+         \font\tencircw=lcirclew10
+         \font\OT1/cmr/m/n/5=cmr5
+         \font\OT1/cmr/m/n/7=cmr7
+         \font\OT1/cmr/m/n/10=cmr10
+         \font\OML/cmm/m/it/5=cmmi5
+         \font\OML/cmm/m/it/7=cmmi7
+         \font\OML/cmm/m/it/10=cmmi10
+         \font\OMS/cmsy/m/n/5=cmsy5
+         \font\OMS/cmsy/m/n/7=cmsy7
+         \font\OMS/cmsy/m/n/10=cmsy10
+         3633 words of font info for 14 preloaded fonts
+         14 hyphenation exceptions
+         Hyphenation trie of length 23193 has 713 ops out of 35111
+           88 for language 5
+           235 for language 4
+           207 for language 3
+           2 for language 1
+           181 for language 0
+         No pages of output.
+         Transcript written on latex.log.
+
+  [.........................................................................]
+  [................................Traceback (most recent call last):
+  File "c:\python24\scripts\epydoc.py", line 16, in ?
+    cli()
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 663, in cli
+    main(options, names)
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 489, in main
+    write_html(docindex, options)
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 522, in write_html
+    html_writer.write(options.target)
+  File "C:\Python24\Lib\site-packages\epydoc\docwriter\html.py", line 500, in write
+    self._mkdir(directory)
+  File "C:\Python24\Lib\site-packages\epydoc\docwriter\html.py", line 631, in _mkdir
+    os.mkdir(directory)
+OSError: [Errno 2] No such file or directory: './docs/html'
+  [..............................Traceback (most recent call last):
+  File "c:\python24\scripts\epydoc.py", line 16, in ?
+    cli()
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 663, in cli
+    main(options, names)
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 491, in main
+    write_latex(docindex, options, options.action)
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 563, in write_latex
+    latex_writer.write(options.target)
+  File "C:\Python24\Lib\site-packages\epydoc\docwriter\latex.py", line 146, in write
+    self._mkdir(directory)
+  File "C:\Python24\Lib\site-packages\epydoc\docwriter\latex.py", line 210, in _mkdir
+    os.mkdir(directory)
+OSError: [Errno 2] No such file or directory: './docs/pdf'
+  [.........................................................................]
+  [......................................................
+  Error: latex failed: File `fancyheadings.sty' not found.
+  [.........................................................................]
+  [.........................................................................]
+  [......................................................
+  Error: latex failed: File `fancyheadings.sty' not found.
+  [.........................................................................]
+  [.........................................................................]
+  [......................................................
+  Error: latex failed: File `fancyheadings.sty' not found.
+  [.........................................................................]
+  [.........................................................................]
+  [......................................................
+  Error: latex failed: File `fancyheadings.sty' not found.
+  [.........................................................................]
+  [.........................................................................]
+  [......................................................
+  Error: latex failed: File `fancyheadings.sty' not found.
+  [.........................................................................]
+  [.........................................................................]
+  [......................................................
+  Error: latex failed: File `fancyheadings.sty' not found.
+  [.........................................................................]
