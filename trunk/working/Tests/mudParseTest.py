@@ -7,6 +7,8 @@
 #@-node:234.20061005224507:<< docstring >>
 #@-middle:234.20061005231611.1:headers_footers
 #@nl
+#@@language python
+#@@tabwidth -4
 #@<< imports >>
 #@+middle:234.20061005231611.1:headers_footers
 #@+node:234.20061005224507.1:<< imports >>
@@ -39,27 +41,33 @@ class stripcapTestCase(unittest.TestCase):
 class getverbTestCase(unittest.TestCase):
     def runTest(self):
         sentence = ["LOOK","AT","PURPLE","BIRD","HOUSE"]
-        assert inst.getverb(sentence) == [["LOOK"],["AT","PURPLE","BIRD","HOUSE"]],"It's Broke Dude."
+        assert inst.getverb(sentence) == ["LOOK",["AT","PURPLE","BIRD","HOUSE"]],"It's Broke Dude."
 #@-node:234.20061005225913.3:getverbTestCase
 #@+node:234.20061005230753:getprepTestCase
 class getprepTestCase(unittest.TestCase):
     def runTest(self):
         sentence = ["AT","PURPLE","BIRD","HOUSE"]
-        assert inst.getverb(sentence) == [["AT"],["PURPLE","BIRD","HOUSE"]],"It's Broke Dude."
+        assert inst.getprep(sentence) == ["AT",["PURPLE","BIRD","HOUSE"]],"It's Broke Dude."
 #@nonl
 #@-node:234.20061005230753:getprepTestCase
+#@+node:234.20061008183117:getprepTestCase2
+class getprepTestCase2(unittest.TestCase):
+    def runTest(self):
+        sentence = ["PURPLE","BIRD","HOUSE"]
+        assert inst.getprep(sentence) == [None,["PURPLE","BIRD","HOUSE"]],"It's Broke Dude."
+#@-node:234.20061008183117:getprepTestCase2
 #@+node:234.20061005231041:getnounTestCase
 class getnounTestCase(unittest.TestCase):
     def runTest(self):
         sentence = ["PURPLE","BIRD","HOUSE"]
-        assert inst.getverb(sentence) == [["PURPLE","BIRD","HOUSE"],[None]],"It's Broke Dude."
+        assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],"It's Broke Dude."
 #@nonl
 #@-node:234.20061005231041:getnounTestCase
 #@+node:234.20061005231344:parsemainTestCase
 class parsemainTestCase(unittest.TestCase):
     def runTest(self):
         sentence = "Look at the purple bird house"
-        assert inst.getverb(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"]},"It's Broke Dude."
+        assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"]},"It's Broke Dude."
 #@nonl
 #@-node:234.20061005231344:parsemainTestCase
 #@-node:234.20061005231611.2:testcases
