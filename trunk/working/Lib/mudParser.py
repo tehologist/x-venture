@@ -18,6 +18,7 @@
 # Place any imports here.
 #@-at
 #@@c
+from copy import copy
 #@nonl
 #@-node:234.20061005195515.1:<< imports >>
 #@-middle:234.20061005231611:headers_footers
@@ -30,10 +31,28 @@ class mudparse:
     """Create instance then pass in string which returns a dictionary."""
     def __init__(self):
         """Create dictionary."""
-        self.sentstruct = {"verb": None, "directprep": None, "directnoun": None, "indirectprep": None, "indirectnoun": None}
+        self.sentstruct = {"verb": None, "directprep": None, "directnoun": None, "indirectprep": None, "indirectnoun": None,"args":None}
         self.preposition = ["IN","ON","AT"]
         
 #@nonl
+#@+node:234.20061012153541:preparse
+    def preparse(self, cmd):
+        """Parses commands to see if meet any special requirements before passing to parsemain."""
+        muddict = copy(self.sentstruct)
+        cmd = self.stripcap(cmd)
+        verb, args = self.getverb(cmd)
+        muddict["verb"] = verb
+        if muddict["verb"] == "SAY":
+            sentence = " ".join(args)
+            muddict["args"] = sentence
+        temp = []
+        temp.append(args)
+        temp.append(muddict)
+        return temp
+        
+        
+#@nonl
+#@-node:234.20061012153541:preparse
 #@+node:234.20061005200343:stripcap
     def stripcap(self, cmd):
         """Takes a string, removes instances of a, an and the, then capitalizes and returns list of all elements."""
@@ -61,6 +80,10 @@ class mudparse:
     def getprep(self, cmd):
         """Will return none if token is not a preposition, else will return preposition."""
         temp = []
+        if len(cmd) == 0:
+            temp.append(None)
+            temp.append(cmd)
+            return temp
         if cmd[0] in self.preposition:
             temp.append(cmd[0])
             cmd.remove(cmd[0])
@@ -74,13 +97,38 @@ class mudparse:
 #@+node:234.20061005203939.1:getnoun
     def getnoun(self, cmd):
         """Will return list of all words till either list ends or element is a preposition."""
-        pass
+        noun = []
+        other = []
+        prepflag = 0
+        for word in cmd:
+            if prepflag == 1:
+                other.append(word)
+            elif word not in self.preposition:
+                noun.append(word)
+            else:
+                other.append(word)
+                prepflag = 1
+        if len(other) == 0:
+            other.append(None)
+        noun.append(other)
+        return noun
+        
 #@nonl
 #@-node:234.20061005203939.1:getnoun
 #@+node:234.20061005203939.2:parsemain
     def parsemain(self, cmd):
         """Calls functions in order and assigns elements to dict based on return."""
-        pass
+        temp = self.preparse(cmd)
+        if temp[0] == None:
+            return temp[1]
+        args,muddict = temp
+        prep, args = self.getprep(args)
+        if prep is not None:
+            muddict["directprep"] = prep
+        return muddict
+        
+        
+        
 #@nonl
 #@-node:234.20061005203939.2:parsemain
 #@-node:234.20061005195839:class mudparse

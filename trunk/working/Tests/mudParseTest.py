@@ -47,7 +47,7 @@ class getverbTestCase(unittest.TestCase):
 class getprepTestCase(unittest.TestCase):
     def runTest(self):
         sentence = ["AT","PURPLE","BIRD","HOUSE"]
-        assert inst.getprep(sentence) == ["AT",["PURPLE","BIRD","HOUSE"]],"It's Broke Dude."
+        assert inst.getprep(sentence) == ["AT",["PURPLE","BIRD","HOUSE"]],inst.getprep(sentence)
 #@nonl
 #@-node:234.20061005230753:getprepTestCase
 #@+node:234.20061008183117:getprepTestCase2
@@ -60,16 +60,44 @@ class getprepTestCase2(unittest.TestCase):
 class getnounTestCase(unittest.TestCase):
     def runTest(self):
         sentence = ["PURPLE","BIRD","HOUSE"]
-        assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],"It's Broke Dude."
+        assert inst.getnoun(sentence) == ["PURPLE","BIRD","HOUSE",[None]],inst.getnoun(sentence)
+        
 #@nonl
 #@-node:234.20061005231041:getnounTestCase
+#@+node:234.20061012164700:getnounTestCase2
+class getnounTestCase2(unittest.TestCase):
+    def runTest(self):
+        sentence = ["PURPLE","BIRD","HOUSE","AT","MOVIES"]
+        assert inst.getnoun(sentence) == ["PURPLE","BIRD","HOUSE",["AT","MOVIES"]],"It's Broke Dude."
+#@nonl
+#@-node:234.20061012164700:getnounTestCase2
 #@+node:234.20061005231344:parsemainTestCase
 class parsemainTestCase(unittest.TestCase):
     def runTest(self):
         sentence = "Look at the purple bird house"
-        assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"]},"It's Broke Dude."
+        assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
 #@nonl
 #@-node:234.20061005231344:parsemainTestCase
+#@+node:234.20061012181240:parsemainTestCase2
+class parsemainTestCase2(unittest.TestCase):
+    def runTest(self):
+        sentence = "Look"
+        assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+#@-node:234.20061012181240:parsemainTestCase2
+#@+node:234.20061012154215:preparseTestCase
+class preparsemainTestCase(unittest.TestCase):
+    def runTest(self):
+        sentence = "say look at me"
+        assert inst.preparse(sentence)[1] == {"verb":"SAY","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"LOOK AT ME"},inst.preparse(sentence)
+#@nonl
+#@-node:234.20061012154215:preparseTestCase
+#@+node:234.20061012172432:preparseTestCase2
+class preparsemainTestCase2(unittest.TestCase):
+    def runTest(self):
+        sentence = "look at me"
+        assert inst.preparse(sentence) == [["AT","ME"], {"verb":"LOOK","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":None}],inst.preparse(sentence)
+#@nonl
+#@-node:234.20061012172432:preparseTestCase2
 #@-node:234.20061005231611.2:testcases
 #@-others
 #@<< main >>
