@@ -6,3 +6,205 @@
   [.........................................................................]
   [.........................................................................]
   [.........................................................................]
+  [.........................................................................]
+  [.........................................................................]
+  [.................................Traceback (most recent call last):
+  File "c:\python24\scripts\epydoc.py", line 16, in ?
+    cli()
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 663, in cli
+    main(options, names)
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 489, in main
+    write_html(docindex, options)
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 522, in write_html
+    html_writer.write(options.target)
+  File "C:\Python24\Lib\site-packages\epydoc\docwriter\html.py", line 500, in write
+    self._mkdir(directory)
+  File "C:\Python24\Lib\site-packages\epydoc\docwriter\html.py", line 631, in _mkdir
+    os.mkdir(directory)
+OSError: [Errno 22] Invalid argument: '.\x07pi\\docs\\html'
+  [...............................Traceback (most recent call last):
+  File "c:\python24\scripts\epydoc.py", line 16, in ?
+    cli()
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 663, in cli
+    main(options, names)
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 491, in main
+    write_latex(docindex, options, options.action)
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 563, in write_latex
+    latex_writer.write(options.target)
+  File "C:\Python24\Lib\site-packages\epydoc\docwriter\latex.py", line 146, in write
+    self._mkdir(directory)
+  File "C:\Python24\Lib\site-packages\epydoc\docwriter\latex.py", line 210, in _mkdir
+    os.mkdir(directory)
+OSError: [Errno 22] Invalid argument: '.\x07pi\\docs\\pdf'
+  [.................................Traceback (most recent call last):
+  File "c:\python24\scripts\epydoc.py", line 16, in ?
+    cli()
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 663, in cli
+    main(options, names)
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 489, in main
+    write_html(docindex, options)
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 522, in write_html
+    html_writer.write(options.target)
+  File "C:\Python24\Lib\site-packages\epydoc\docwriter\html.py", line 500, in write
+    self._mkdir(directory)
+  File "C:\Python24\Lib\site-packages\epydoc\docwriter\html.py", line 631, in _mkdir
+    os.mkdir(directory)
+OSError: [Errno 22] Invalid argument: '.\x07pi\\docs\\html'
+  [...............................Traceback (most recent call last):
+  File "c:\python24\scripts\epydoc.py", line 16, in ?
+    cli()
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 663, in cli
+    main(options, names)
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 491, in main
+    write_latex(docindex, options, options.action)
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 563, in write_latex
+    latex_writer.write(options.target)
+  File "C:\Python24\Lib\site-packages\epydoc\docwriter\latex.py", line 146, in write
+    self._mkdir(directory)
+  File "C:\Python24\Lib\site-packages\epydoc\docwriter\latex.py", line 210, in _mkdir
+    os.mkdir(directory)
+OSError: [Errno 22] Invalid argument: '.\x07pi\\docs\\pdf'
+  [.................................Traceback (most recent call last):
+  File "c:\python24\scripts\epydoc.py", line 16, in ?
+    cli()
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 663, in cli
+    main(options, names)
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 489, in main
+    write_html(docindex, options)
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 522, in write_html
+    html_writer.write(options.target)
+  File "C:\Python24\Lib\site-packages\epydoc\docwriter\html.py", line 500, in write
+    self._mkdir(directory)
+  File "C:\Python24\Lib\site-packages\epydoc\docwriter\html.py", line 631, in _mkdir
+    os.mkdir(directory)
+OSError: [Errno 22] Invalid argument: '.\x07pi\\docs\\html'
+  [...............................Traceback (most recent call last):
+  File "c:\python24\scripts\epydoc.py", line 16, in ?
+    cli()
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 663, in cli
+    main(options, names)
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 491, in main
+    write_latex(docindex, options, options.action)
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 563, in write_latex
+    latex_writer.write(options.target)
+  File "C:\Python24\Lib\site-packages\epydoc\docwriter\latex.py", line 146, in write
+    self._mkdir(directory)
+  File "C:\Python24\Lib\site-packages\epydoc\docwriter\latex.py", line 210, in _mkdir
+    os.mkdir(directory)
+OSError: [Errno 22] Invalid argument: '.\x07pi\\docs\\pdf'
+  [.................................Traceback (most recent call last):
+  File "c:\python24\scripts\epydoc.py", line 16, in ?
+    cli()
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 663, in cli
+    main(options, names)
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 489, in main
+    write_html(docindex, options)
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 522, in write_html
+    html_writer.write(options.target)
+  File "C:\Python24\Lib\site-packages\epydoc\docwriter\html.py", line 500, in write
+    self._mkdir(directory)
+  File "C:\Python24\Lib\site-packages\epydoc\docwriter\html.py", line 631, in _mkdir
+    os.mkdir(directory)
+OSError: [Errno 22] Invalid argument: '.\\docs\x07pi\\html'
+  [...............................Traceback (most recent call last):
+  File "c:\python24\scripts\epydoc.py", line 16, in ?
+    cli()
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 663, in cli
+    main(options, names)
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 491, in main
+    write_latex(docindex, options, options.action)
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 563, in write_latex
+    latex_writer.write(options.target)
+  File "C:\Python24\Lib\site-packages\epydoc\docwriter\latex.py", line 146, in write
+    self._mkdir(directory)
+  File "C:\Python24\Lib\site-packages\epydoc\docwriter\latex.py", line 210, in _mkdir
+    os.mkdir(directory)
+OSError: [Errno 22] Invalid argument: '.\\docs\x07pi\\pdf'
+  [.................................Traceback (most recent call last):
+  File "c:\python24\scripts\epydoc.py", line 16, in ?
+    cli()
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 663, in cli
+    main(options, names)
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 489, in main
+    write_html(docindex, options)
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 522, in write_html
+    html_writer.write(options.target)
+  File "C:\Python24\Lib\site-packages\epydoc\docwriter\html.py", line 500, in write
+    self._mkdir(directory)
+  File "C:\Python24\Lib\site-packages\epydoc\docwriter\html.py", line 631, in _mkdir
+    os.mkdir(directory)
+OSError: [Errno 22] Invalid argument: '.\\docs\x07pi_docs\\html'
+  [...............................Traceback (most recent call last):
+  File "c:\python24\scripts\epydoc.py", line 16, in ?
+    cli()
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 663, in cli
+    main(options, names)
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 491, in main
+    write_latex(docindex, options, options.action)
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 563, in write_latex
+    latex_writer.write(options.target)
+  File "C:\Python24\Lib\site-packages\epydoc\docwriter\latex.py", line 146, in write
+    self._mkdir(directory)
+  File "C:\Python24\Lib\site-packages\epydoc\docwriter\latex.py", line 210, in _mkdir
+    os.mkdir(directory)
+OSError: [Errno 22] Invalid argument: '.\\docs\x07pi_docs\\pdf'
+  [.................................Traceback (most recent call last):
+  File "c:\python24\scripts\epydoc.py", line 16, in ?
+    cli()
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 663, in cli
+    main(options, names)
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 489, in main
+    write_html(docindex, options)
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 522, in write_html
+    html_writer.write(options.target)
+  File "C:\Python24\Lib\site-packages\epydoc\docwriter\html.py", line 500, in write
+    self._mkdir(directory)
+  File "C:\Python24\Lib\site-packages\epydoc\docwriter\html.py", line 631, in _mkdir
+    os.mkdir(directory)
+OSError: [Errno 22] Invalid argument: '.\\docs\x07pi\\html'
+  [...............................Traceback (most recent call last):
+  File "c:\python24\scripts\epydoc.py", line 16, in ?
+    cli()
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 663, in cli
+    main(options, names)
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 491, in main
+    write_latex(docindex, options, options.action)
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 563, in write_latex
+    latex_writer.write(options.target)
+  File "C:\Python24\Lib\site-packages\epydoc\docwriter\latex.py", line 146, in write
+    self._mkdir(directory)
+  File "C:\Python24\Lib\site-packages\epydoc\docwriter\latex.py", line 210, in _mkdir
+    os.mkdir(directory)
+OSError: [Errno 22] Invalid argument: '.\\docs\x07pi\\pdf'
+  [.................................Traceback (most recent call last):
+  File "c:\python24\scripts\epydoc.py", line 16, in ?
+    cli()
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 663, in cli
+    main(options, names)
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 489, in main
+    write_html(docindex, options)
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 522, in write_html
+    html_writer.write(options.target)
+  File "C:\Python24\Lib\site-packages\epydoc\docwriter\html.py", line 500, in write
+    self._mkdir(directory)
+  File "C:\Python24\Lib\site-packages\epydoc\docwriter\html.py", line 631, in _mkdir
+    os.mkdir(directory)
+OSError: [Errno 2] No such file or directory: '.\\docs\\libs\\html'
+  [...............................Traceback (most recent call last):
+  File "c:\python24\scripts\epydoc.py", line 16, in ?
+    cli()
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 663, in cli
+    main(options, names)
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 491, in main
+    write_latex(docindex, options, options.action)
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 563, in write_latex
+    latex_writer.write(options.target)
+  File "C:\Python24\Lib\site-packages\epydoc\docwriter\latex.py", line 146, in write
+    self._mkdir(directory)
+  File "C:\Python24\Lib\site-packages\epydoc\docwriter\latex.py", line 210, in _mkdir
+    os.mkdir(directory)
+OSError: [Errno 2] No such file or directory: '.\\docs\\libs\\pdf'
+  [.........................................................................]
+  [.........................................................................]
+  [.........................................................................]
+  [.........................................................................]
