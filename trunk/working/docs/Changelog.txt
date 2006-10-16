@@ -1,0 +1,7 @@
+#@+leo-ver=4-thin
+#@+node:234.20061013003017.1:@thin .\\docs\Changelog.txt
+10\15\06 Implemented several unit tests, parser now passes all of them. The parser module is now complete enough to be usable.
+10\15\06 Moved api documentation to Docs/Lib.
+#@nonl
+#@-node:234.20061013003017.1:@thin .\\docs\Changelog.txt
+#@-leo
