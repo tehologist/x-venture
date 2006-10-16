@@ -1,0 +1,21 @@
+This is makeindex, version 2.14 [02-Oct-2002] (kpathsea + Thai support).
+Scanning input file api.idx....
+!! Input index error (file = api.idx, line = 5):
+   -- Extra `!' at position 95 of first argument.
+!! Input index error (file = api.idx, line = 6):
+   -- Extra `!' at position 95 of first argument.
+!! Input index error (file = api.idx, line = 7):
+   -- Extra `!' at position 95 of first argument.
+!! Input index error (file = api.idx, line = 8):
+   -- Extra `!' at position 95 of first argument.
+!! Input index error (file = api.idx, line = 9):
+   -- Extra `!' at position 95 of first argument.
+!! Input index error (file = api.idx, line = 10):
+   -- Extra `!' at position 95 of first argument.
+!! Input index error (file = api.idx, line = 11):
+   -- Extra `!' at position 95 of first argument.
+done (6 entries accepted, 7 rejected).
+Sorting entries....done (17 comparisons).
+Generating output file api.ind....done (8 lines written, 0 warnings).
+Output written in api.ind.
+Transcript written in api.ilg.

@@ -97,19 +97,25 @@ class mudparse:
 #@+node:234.20061005203939.1:getnoun
     def getnoun(self, cmd):
         """Will return list of all words till either list ends or element is a preposition."""
+        temp =[]
         noun = []
         other = []
         prepflag = 0
+        if len(cmd) == 0:
+            noun.append(None)
+            noun.append(cmd)
+            return noun
         for word in cmd:
             if prepflag == 1:
                 other.append(word)
             elif word not in self.preposition:
-                noun.append(word)
+                temp.append(word)
             else:
                 other.append(word)
                 prepflag = 1
         if len(other) == 0:
-            other.append(None)
+            other = None
+        noun.append(temp)
         noun.append(other)
         return noun
         
@@ -125,7 +131,16 @@ class mudparse:
         prep, args = self.getprep(args)
         if prep is not None:
             muddict["directprep"] = prep
+        noun, args = self.getnoun(args)
+        muddict["directnoun"] = noun
+        if args is not None:
+            inprep, args = self.getprep(args)
+            muddict["indirectprep"] = inprep
+            innoun, args = self.getnoun(args)
+            muddict["indirectnoun"] = innoun
+            muddict["args"] = None
         return muddict
+            
         
         
         

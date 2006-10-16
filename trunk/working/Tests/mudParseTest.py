@@ -60,7 +60,7 @@ class getprepTestCase2(unittest.TestCase):
 class getnounTestCase(unittest.TestCase):
     def runTest(self):
         sentence = ["PURPLE","BIRD","HOUSE"]
-        assert inst.getnoun(sentence) == ["PURPLE","BIRD","HOUSE",[None]],inst.getnoun(sentence)
+        assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],inst.getnoun(sentence)
         
 #@nonl
 #@-node:234.20061005231041:getnounTestCase
@@ -68,22 +68,36 @@ class getnounTestCase(unittest.TestCase):
 class getnounTestCase2(unittest.TestCase):
     def runTest(self):
         sentence = ["PURPLE","BIRD","HOUSE","AT","MOVIES"]
-        assert inst.getnoun(sentence) == ["PURPLE","BIRD","HOUSE",["AT","MOVIES"]],"It's Broke Dude."
+        assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],["AT","MOVIES"]],"It's Broke Dude."
 #@nonl
 #@-node:234.20061012164700:getnounTestCase2
 #@+node:234.20061005231344:parsemainTestCase
 class parsemainTestCase(unittest.TestCase):
     def runTest(self):
         sentence = "Look at the purple bird house"
-        assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+        assert inst.parsemain(sentence) == {'indirectnoun': None, 'indirectprep': None, 'directnoun': ['PURPLE', 'BIRD', 'HOUSE'], 'verb': 'LOOK', 'directprep': 'AT', 'args': None},inst.parsemain(sentence)
 #@nonl
 #@-node:234.20061005231344:parsemainTestCase
 #@+node:234.20061012181240:parsemainTestCase2
 class parsemainTestCase2(unittest.TestCase):
     def runTest(self):
         sentence = "Look"
-        assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+        assert inst.parsemain(sentence) == {'indirectnoun': None, 'indirectprep': None, 'directnoun': None, 'verb': 'LOOK', 'directprep': None, 'args': None, 'directnoun': None},inst.parsemain(sentence)
 #@-node:234.20061012181240:parsemainTestCase2
+#@+node:234.20061013000604:parsemainTestCase3
+class parsemainTestCase3(unittest.TestCase):
+    def runTest(self):
+        sentence = "Look at the purple bird house on the green table"
+        assert inst.parsemain(sentence) == {'indirectnoun': ['GREEN', 'TABLE'], 'indirectprep': 'ON', 'directnoun': ['PURPLE', 'BIRD', 'HOUSE'], 'verb': 'LOOK', 'directprep': 'AT', 'args': None},inst.parsemain(sentence)
+#@nonl
+#@-node:234.20061013000604:parsemainTestCase3
+#@+node:234.20061013001915:parsemainTestCase4
+class parsemainTestCase4(unittest.TestCase):
+    def runTest(self):
+        sentence = "Look at the purple bird house on"
+        assert inst.parsemain(sentence) == {'indirectnoun': None, 'indirectprep': 'ON', 'directnoun': ['PURPLE', 'BIRD', 'HOUSE'], 'verb': 'LOOK', 'directprep': 'AT', 'args': None},inst.parsemain(sentence)
+#@nonl
+#@-node:234.20061013001915:parsemainTestCase4
 #@+node:234.20061012154215:preparseTestCase
 class preparsemainTestCase(unittest.TestCase):
     def runTest(self):
