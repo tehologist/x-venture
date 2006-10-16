@@ -645,3 +645,2646 @@ AssertionError: It's Broke Dude.
 Ran 6 tests in 0.000s
 
 FAILED (failures=2)
+F...F.
+======================================================================
+FAIL: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 63, in runTest
+    assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 70, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"]},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+FAILED (failures=2)
+  File "./Tests/mudParseTest.py", line 77
+    assert inst.parsemain(sentence) == {"verb":"say","directprep":None,"indirectprep":None"directnoun":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+                                                                                                     ^
+SyntaxError: invalid syntax
+F...F.
+======================================================================
+FAIL: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 63, in runTest
+    assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 77, in runTest
+    assert inst.parsemain(sentence) == {"verb":"say","directprep":None,"indirectprep":None,"directnoun":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+FAILED (failures=2)
+F...FF.
+======================================================================
+FAIL: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 63, in runTest
+    assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 70, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"]},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 77, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"indirectprep":None,"directnoun":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+FAILED (failures=3)
+F...FF.
+======================================================================
+FAIL: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 63, in runTest
+    assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 70, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 77, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"indirectprep":None,"directnoun":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+FAILED (failures=3)
+F...FF.
+======================================================================
+FAIL: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 63, in runTest
+    assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 70, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 77, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+FAILED (failures=3)
+F...FF.
+======================================================================
+FAIL: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 63, in runTest
+    assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 70, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 77, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+FAILED (failures=3)
+F...FF.
+======================================================================
+FAIL: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 63, in runTest
+    assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 71, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+FAILED (failures=3)
+  File "./Tests/mudParseTest.py", line 63
+    assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],print inst.getnoun(sentence)
+                                                                          ^
+SyntaxError: invalid syntax
+F...FF.
+======================================================================
+FAIL: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 63, in runTest
+    assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],inst.getnoun(sentence)
+AssertionError: ['BIRD', None]
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 71, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+FAILED (failures=3)
+F...FF.
+======================================================================
+FAIL: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 63, in runTest
+    assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],inst.getnoun(sentence)
+AssertionError: ['PURPLE', 'BIRD', 'HOUSE', ['PURPLE', 'BIRD', 'HOUSE']]
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 71, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+FAILED (failures=3)
+F...FF.
+======================================================================
+FAIL: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 63, in runTest
+    assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],inst.getnoun(sentence)
+AssertionError: ['BIRD', None]
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 71, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+FAILED (failures=3)
+F...FF.
+======================================================================
+FAIL: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 63, in runTest
+    assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],inst.getnoun(sentence)
+AssertionError: ['BIRD', None]
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 71, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+FAILED (failures=3)
+E...FF.
+======================================================================
+ERROR: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 63, in runTest
+    assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],inst.getnoun(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 88, in getnoun
+    cmd.remove(cmd[str(word)])
+TypeError: list indices must be integers
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 71, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+FAILED (failures=2, errors=1)
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 15, in ?
+    from Lib.mudParser import mudparse
+  File "c:\xvent\working\Lib\mudParser.py", line 89
+    cmd = None
+      ^
+IndentationError: expected an indented block
+E...FF.
+======================================================================
+ERROR: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 63, in runTest
+    assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],inst.getnoun(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 84, in getnoun
+    if cmd[num] in self.preposition:
+IndexError: list index out of range
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 71, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+FAILED (failures=2, errors=1)
+E...FF.
+======================================================================
+ERROR: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 63, in runTest
+    assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],inst.getnoun(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 84, in getnoun
+    if cmd[num] in self.preposition:
+IndexError: list index out of range
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 71, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+FAILED (failures=2, errors=1)
+E...FF.
+======================================================================
+ERROR: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 63, in runTest
+    assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],inst.getnoun(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 84, in getnoun
+    if cmd[num - 1] in self.preposition:
+IndexError: list index out of range
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 71, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+FAILED (failures=2, errors=1)
+F...FF.
+======================================================================
+FAIL: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 63, in runTest
+    assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],inst.getnoun(sentence)
+AssertionError: [['BIRD']]
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 71, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+FAILED (failures=3)
+E...FF.
+======================================================================
+ERROR: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 63, in runTest
+    assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],inst.getnoun(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 84, in getnoun
+    if cmd[num] in self.preposition:
+IndexError: list index out of range
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 71, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+FAILED (failures=2, errors=1)
+E...FF.
+======================================================================
+ERROR: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 63, in runTest
+    assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],inst.getnoun(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 84, in getnoun
+    if cmd[num] in self.preposition:
+IndexError: list index out of range
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 71, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+FAILED (failures=2, errors=1)
+E...FF.
+======================================================================
+ERROR: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 63, in runTest
+    assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],inst.getnoun(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 84, in getnoun
+    if cmd[num] in self.preposition:
+IndexError: list index out of range
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 71, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.016s
+
+FAILED (failures=2, errors=1)
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 15, in ?
+    from Lib.mudParser import mudparse
+  File "c:\xvent\working\Lib\mudParser.py", line 88
+    for x in range(len(temp):
+                            ^
+SyntaxError: invalid syntax
+E...FF.
+======================================================================
+ERROR: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 63, in runTest
+    assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],inst.getnoun(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 89, in getnoun
+    cmd.remove(0)
+ValueError: list.remove(x): x not in list
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 71, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+FAILED (failures=2, errors=1)
+E...FF.
+======================================================================
+ERROR: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 63, in runTest
+    assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],inst.getnoun(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 89, in getnoun
+    cmd.remove(0)
+ValueError: list.remove(x): x not in list
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 71, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+FAILED (failures=2, errors=1)
+E...FF.
+======================================================================
+ERROR: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 63, in runTest
+    assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],inst.getnoun(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 89, in getnoun
+    remove.cmd(0)
+NameError: global name 'remove' is not defined
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 71, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+FAILED (failures=2, errors=1)
+E...FF.
+======================================================================
+ERROR: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 63, in runTest
+    assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],inst.getnoun(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 89, in getnoun
+    remove.cmd[0]
+NameError: global name 'remove' is not defined
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 71, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+FAILED (failures=2, errors=1)
+F...FF.
+======================================================================
+FAIL: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 63, in runTest
+    assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],inst.getnoun(sentence)
+AssertionError: ['teh']
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 71, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+FAILED (failures=3)
+F...FF.
+======================================================================
+FAIL: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 63, in runTest
+    assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],inst.getnoun(sentence)
+AssertionError: [None]
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 71, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+FAILED (failures=3)
+F...FF.
+======================================================================
+FAIL: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 63, in runTest
+    assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],inst.getnoun(sentence)
+AssertionError: []
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 71, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+FAILED (failures=3)
+F...FF.
+======================================================================
+FAIL: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 63, in runTest
+    assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],inst.getnoun(sentence)
+AssertionError: []
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 71, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+FAILED (failures=3)
+F...FF.
+======================================================================
+FAIL: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 63, in runTest
+    assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],inst.getnoun(sentence)
+AssertionError: []
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 71, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+FAILED (failures=3)
+E...FF.
+======================================================================
+ERROR: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 63, in runTest
+    assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],inst.getnoun(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 87, in getnoun
+    temp = temp.append(word)
+AttributeError: 'NoneType' object has no attribute 'append'
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 71, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+FAILED (failures=2, errors=1)
+E...FF.
+======================================================================
+ERROR: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 63, in runTest
+    assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],inst.getnoun(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 87, in getnoun
+    temp = temp.append(word)
+AttributeError: 'NoneType' object has no attribute 'append'
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 71, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+FAILED (failures=2, errors=1)
+E...FF.
+======================================================================
+ERROR: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 63, in runTest
+    assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],inst.getnoun(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 89, in getnoun
+    cmd.remove(word)
+ValueError: list.remove(x): x not in list
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 71, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+FAILED (failures=2, errors=1)
+E...FF.
+======================================================================
+ERROR: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 63, in runTest
+    assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],inst.getnoun(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 89, in getnoun
+    cmd.remove(word)
+ValueError: list.remove(x): x not in list
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 71, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+FAILED (failures=2, errors=1)
+F...FF.
+======================================================================
+FAIL: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 63, in runTest
+    assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],inst.getnoun(sentence)
+AssertionError: ['', 'PURPLE', 'BIRD', 'HOUSE']
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 71, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+FAILED (failures=3)
+F...FF.
+======================================================================
+FAIL: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 63, in runTest
+    assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],inst.getnoun(sentence)
+AssertionError: ['PURPLE', 'BIRD', 'HOUSE']
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 71, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+FAILED (failures=3)
+E...FF.
+======================================================================
+ERROR: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 63, in runTest
+    assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],inst.getnoun(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 89, in getnoun
+    cmd.remove(0)
+ValueError: list.remove(x): x not in list
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 71, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+FAILED (failures=2, errors=1)
+F...FF.
+======================================================================
+FAIL: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 63, in runTest
+    assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],inst.getnoun(sentence)
+AssertionError: []
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 71, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+FAILED (failures=3)
+F...FF.
+======================================================================
+FAIL: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 63, in runTest
+    assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],inst.getnoun(sentence)
+AssertionError: []
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 71, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.016s
+
+FAILED (failures=3)
+F...FF.
+======================================================================
+FAIL: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 63, in runTest
+    assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],inst.getnoun(sentence)
+AssertionError: ['PURPLE', 'BIRD', 'HOUSE']
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 71, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+FAILED (failures=3)
+F...FF.
+======================================================================
+FAIL: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 63, in runTest
+    assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],inst.getnoun(sentence)
+AssertionError: ['PURPLE', 'BIRD', 'HOUSE', []]
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 71, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+FAILED (failures=3)
+F...FF.
+======================================================================
+FAIL: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 63, in runTest
+    assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],inst.getnoun(sentence)
+AssertionError: ['PURPLE', 'BIRD', 'HOUSE', None]
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 71, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+FAILED (failures=3)
+F...FF.
+======================================================================
+FAIL: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 63, in runTest
+    assert inst.getnoun(sentence) == [["PURPLE","BIRD","HOUSE"],None],inst.getnoun(sentence)
+AssertionError: ['PURPLE', 'BIRD', 'HOUSE', [None]]
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 71, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+FAILED (failures=3)
+  File "./Tests/mudParseTest.py", line 68
+    class parsemainTestCase(unittest.TestCase):
+        ^
+SyntaxError: invalid syntax
+....FF.
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 71, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+FAILED (failures=2)
+E...FF.
+======================================================================
+ERROR: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 71, in runTest
+    assert inst.getnoun(sentence) == ["PURPLE","BIRD","HOUSE",["AT","MOVIES"]],inst.getnoun(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 88, in getnoun
+    elif the == 1:
+NameError: global name 'the' is not defined
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 85, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+FAILED (failures=2, errors=1)
+.E...FF.
+======================================================================
+ERROR: runTest (__main__.getnounTestCase2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 71, in runTest
+    assert inst.getnoun(sentence) == ["PURPLE","BIRD","HOUSE",["AT","MOVIES"]],inst.getnoun(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 88, in getnoun
+    elif the == 1:
+NameError: global name 'the' is not defined
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 85, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.000s
+
+FAILED (failures=2, errors=1)
+.F...FF.
+======================================================================
+FAIL: runTest (__main__.getnounTestCase2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 71, in runTest
+    assert inst.getnoun(sentence) == ["PURPLE","BIRD","HOUSE",["AT","MOVIES"]],inst.getnoun(sentence)
+AssertionError: ['PURPLE', 'BIRD', 'HOUSE', 'MOVIES', [None]]
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 85, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.000s
+
+FAILED (failures=3)
+.F...FF.
+======================================================================
+FAIL: runTest (__main__.getnounTestCase2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 71, in runTest
+    assert inst.getnoun(sentence) == ["PURPLE","BIRD","HOUSE",["AT","MOVIES"]],inst.getnoun(sentence)
+AssertionError: ['PURPLE', 'BIRD', 'HOUSE', 'MOVIES', ['AT']]
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 85, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.000s
+
+FAILED (failures=3)
+.....FF.
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 85, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.000s
+
+FAILED (failures=2)
+.....FF.
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 85, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.000s
+
+FAILED (failures=2)
+.....FF.
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 85, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.000s
+
+FAILED (failures=2)
+.....FE.
+======================================================================
+ERROR: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 85, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+  File "c:\xvent\working\Lib\mudParser.py", line 41, in preparse
+    cmd = stripcap(cmd)
+NameError: global name 'stripcap' is not defined
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.000s
+
+FAILED (failures=1, errors=1)
+.....FF.
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 85, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.000s
+
+FAILED (failures=2)
+.....FF.
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 85, in runTest
+    assert inst.preparse(sentence) == {"verb":"say","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"look at me"},inst.preparse(sentence)
+AssertionError: {'indirectnoun': None, 'directprep': None, 'args': 'LOOK AT ME', 'indirectprep': None, 'verb': 'SAY', 'directnoun': None}
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.000s
+
+FAILED (failures=2)
+.....F..
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.000s
+
+FAILED (failures=1)
+.....FF.
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 85, in runTest
+    assert inst.preparse(sentence) == {"verb":"SAY","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"LOOK AT M"},inst.preparse(sentence)
+AssertionError: {'indirectnoun': None, 'directprep': None, 'args': 'LOOK AT ME', 'indirectprep': None, 'verb': 'SAY', 'directnoun': None}
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.000s
+
+FAILED (failures=2)
+.....FF.
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 85, in runTest
+    assert inst.preparse(sentence) == {"verb":"SAY","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"LOOK AT M"},inst.preparse(sentence)
+AssertionError: {'indirectnoun': None, 'directprep': None, 'args': 'LOOK AT ME', 'indirectprep': None, 'verb': 'SAY', 'directnoun': None}
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.000s
+
+FAILED (failures=2)
+.....F..
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.000s
+
+FAILED (failures=1)
+.....FE.
+======================================================================
+ERROR: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 85, in runTest
+    assert inst.preparse(sentence)[1] == {"verb":"SAY","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"LOOK AT ME"},inst.preparse(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 48, in preparse
+    temp.append(muddict)
+AttributeError: 'str' object has no attribute 'append'
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.000s
+
+FAILED (failures=1, errors=1)
+.....FE.
+======================================================================
+ERROR: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 85, in runTest
+    assert inst.preparse(sentence)[1] == {"verb":"SAY","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"LOOK AT ME"},inst.preparse(sentence)
+IndexError: list index out of range
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.000s
+
+FAILED (failures=1, errors=1)
+.....F..
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.015s
+
+FAILED (failures=1)
+.....E..
+======================================================================
+ERROR: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 116, in parsemain
+    temp = preparse(cmd)
+NameError: global name 'preparse' is not defined
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.016s
+
+FAILED (errors=1)
+.....F..
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+AssertionError
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.000s
+
+FAILED (failures=1)
+.....F..
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+AssertionError: PURPLE
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.000s
+
+FAILED (failures=1)
+.....FF.
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+AssertionError: PURPLE
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 92, in runTest
+    assert inst.preparse(sentence)[1] == {"verb":"LOOK","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":None},inst.preparse(sentence)
+AssertionError: ['AT', 'ME', {'indirectnoun': None, 'directprep': None, 'args': None, 'indirectprep': None, 'verb': 'LOOK', 'directnoun': None}]
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.000s
+
+FAILED (failures=2)
+.....EE.
+======================================================================
+ERROR: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 117, in parsemain
+    temp = self.preparse(cmd)
+  File "c:\xvent\working\Lib\mudParser.py", line 45, in preparse
+    temp.append(temp[1])
+IndexError: list index out of range
+
+======================================================================
+ERROR: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 92, in runTest
+    assert inst.preparse(sentence)[1] == {"verb":"LOOK","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":None},inst.preparse(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 45, in preparse
+    temp.append(temp[1])
+IndexError: list index out of range
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.000s
+
+FAILED (errors=2)
+.....FF.
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+AssertionError: {'indirectnoun': None, 'directprep': 'AT', 'args': None, 'indirectprep': None, 'verb': 'LOOK', 'directnoun': None}
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 92, in runTest
+    assert inst.preparse(sentence)[1] == {"verb":"LOOK","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":None},inst.preparse(sentence)
+AssertionError: [['AT', 'ME'], {'indirectnoun': None, 'directprep': 'AT', 'args': None, 'indirectprep': None, 'verb': 'LOOK', 'directnoun': None}]
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.000s
+
+FAILED (failures=2)
+  File "./Tests/mudParseTest.py", line 92
+    assert inst.preparse(sentence)[1] ==  [["AT","ME"]{"verb":"LOOK","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":None}],inst.preparse(sentence)
+                                                      ^
+SyntaxError: invalid syntax
+  File "./Tests/mudParseTest.py", line 92
+    assert inst.preparse(sentence)[1] == [["AT","ME"]{"verb":"LOOK","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":None}],inst.preparse(sentence)
+                                                     ^
+SyntaxError: invalid syntax
+.....FEF.
+======================================================================
+ERROR: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 85, in runTest
+    assert inst.preparse(sentence)[1] == {"verb":"SAY","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"LOOK AT ME"},inst.preparse(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 48, in preparse
+    temp = " ".join(temp)
+TypeError: sequence item 0: expected string, list found
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+AssertionError: {'indirectnoun': None, 'directprep': 'AT', 'args': None, 'indirectprep': None, 'verb': 'LOOK', 'directnoun': None}
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 92, in runTest
+    assert inst.preparse(sentence)[1] == [["AT","ME"],{"verb":"LOOK","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":None}],inst.preparse(sentence)
+AssertionError: [['AT', 'ME'], {'indirectnoun': None, 'directprep': 'AT', 'args': None, 'indirectprep': None, 'verb': 'LOOK', 'directnoun': None}]
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.000s
+
+FAILED (failures=2, errors=1)
+.....FEF.
+======================================================================
+ERROR: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 85, in runTest
+    assert inst.preparse(sentence)[1] == {"verb":"SAY","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"LOOK AT ME"},inst.preparse(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 48, in preparse
+    temp = " ".join(temp)
+TypeError: sequence item 0: expected string, list found
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+AssertionError: {'indirectnoun': None, 'directprep': 'AT', 'args': None, 'indirectprep': None, 'verb': 'LOOK', 'directnoun': None}
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 92, in runTest
+    assert inst.preparse(sentence)[1] == [["AT","ME"],{"verb":"LOOK","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":None}],inst.preparse(sentence)
+AssertionError: [['AT', 'ME'], {'indirectnoun': None, 'directprep': 'AT', 'args': None, 'indirectprep': None, 'verb': 'LOOK', 'directnoun': None}]
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.000s
+
+FAILED (failures=2, errors=1)
+.....EEE.
+======================================================================
+ERROR: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 118, in parsemain
+    temp = self.preparse(cmd)
+  File "c:\xvent\working\Lib\mudParser.py", line 50, in preparse
+    temp.append(newtemp)
+UnboundLocalError: local variable 'newtemp' referenced before assignment
+
+======================================================================
+ERROR: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 85, in runTest
+    assert inst.preparse(sentence)[1] == {"verb":"SAY","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"LOOK AT ME"},inst.preparse(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 45, in preparse
+    temp = " ".join(temp)
+TypeError: sequence item 1: expected string, list found
+
+======================================================================
+ERROR: runTest (__main__.preparsemainTestCase2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 92, in runTest
+    assert inst.preparse(sentence)[1] == [["AT","ME"],{"verb":"LOOK","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":None}],inst.preparse(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 50, in preparse
+    temp.append(newtemp)
+UnboundLocalError: local variable 'newtemp' referenced before assignment
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.000s
+
+FAILED (errors=3)
+.....EEE.
+======================================================================
+ERROR: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 118, in parsemain
+    temp = self.preparse(cmd)
+  File "c:\xvent\working\Lib\mudParser.py", line 50, in preparse
+    temp.append(newtemp)
+UnboundLocalError: local variable 'newtemp' referenced before assignment
+
+======================================================================
+ERROR: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 85, in runTest
+    assert inst.preparse(sentence)[1] == {"verb":"SAY","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"LOOK AT ME"},inst.preparse(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 48, in preparse
+    newtemp = temp[1]
+IndexError: list index out of range
+
+======================================================================
+ERROR: runTest (__main__.preparsemainTestCase2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 92, in runTest
+    assert inst.preparse(sentence)[1] == [["AT","ME"],{"verb":"LOOK","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":None}],inst.preparse(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 50, in preparse
+    temp.append(newtemp)
+UnboundLocalError: local variable 'newtemp' referenced before assignment
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.000s
+
+FAILED (errors=3)
+.....FEF.
+======================================================================
+ERROR: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 85, in runTest
+    assert inst.preparse(sentence)[1] == {"verb":"SAY","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"LOOK AT ME"},inst.preparse(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 48, in preparse
+    newtemp = temp[1]
+IndexError: list index out of range
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+AssertionError: {'indirectnoun': None, 'directprep': 'AT', 'args': None, 'indirectprep': None, 'verb': 'LOOK', 'directnoun': None}
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 92, in runTest
+    assert inst.preparse(sentence)[1] == [["AT","ME"],{"verb":"LOOK","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":None}],inst.preparse(sentence)
+AssertionError: [['AT', 'ME'], {'indirectnoun': None, 'directprep': 'AT', 'args': 'LOOK AT ME', 'indirectprep': None, 'verb': 'LOOK', 'directnoun': None}]
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.000s
+
+FAILED (failures=2, errors=1)
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 15, in ?
+    from Lib.mudParser import mudparse
+  File "c:\xvent\working\Lib\mudParser.py", line 44
+    newtemp = temp[1]
+    ^
+SyntaxError: invalid syntax
+.....FFF.
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+AssertionError: {'indirectnoun': None, 'directprep': 'AT', 'args': None, 'indirectprep': None, 'verb': 'LOOK', 'directnoun': None}
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 85, in runTest
+    assert inst.preparse(sentence)[1] == {"verb":"SAY","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"LOOK AT ME"},inst.preparse(sentence)
+AssertionError: [['LOOK', 'AT', 'ME'], {'indirectnoun': None, 'directprep': 'AT', 'args': 'LOOK AT ME', 'indirectprep': None, 'verb': 'SAY', 'directnoun': None}]
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 92, in runTest
+    assert inst.preparse(sentence)[1] == [["AT","ME"],{"verb":"LOOK","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":None}],inst.preparse(sentence)
+AssertionError: [['AT', 'ME'], {'indirectnoun': None, 'directprep': 'AT', 'args': 'LOOK AT ME', 'indirectprep': None, 'verb': 'LOOK', 'directnoun': None}]
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.000s
+
+FAILED (failures=3)
+.....EEE.
+======================================================================
+ERROR: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 118, in parsemain
+    temp = self.preparse(cmd)
+  File "c:\xvent\working\Lib\mudParser.py", line 43, in preparse
+    muddict["verb"] = temp[0]
+NameError: global name 'muddict' is not defined
+
+======================================================================
+ERROR: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 85, in runTest
+    assert inst.preparse(sentence)[1] == {"verb":"SAY","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"LOOK AT ME"},inst.preparse(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 43, in preparse
+    muddict["verb"] = temp[0]
+NameError: global name 'muddict' is not defined
+
+======================================================================
+ERROR: runTest (__main__.preparsemainTestCase2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 92, in runTest
+    assert inst.preparse(sentence)[1] == [["AT","ME"],{"verb":"LOOK","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":None}],inst.preparse(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 43, in preparse
+    muddict["verb"] = temp[0]
+NameError: global name 'muddict' is not defined
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.000s
+
+FAILED (errors=3)
+.....F.F.
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+AssertionError: {'indirectnoun': None, 'indirectprep': None, 'verb': 'LOOK', 'directprep': 'AT', 'args': None, 'directnoun': None}
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 92, in runTest
+    assert inst.preparse(sentence)[1] == [["AT","ME"],{"verb":"LOOK","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":None}],inst.preparse(sentence)
+AssertionError: [['AT', 'ME'], {'indirectnoun': None, 'indirectprep': None, 'verb': 'LOOK', 'directprep': None, 'args': None, 'directnoun': None}]
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.000s
+
+FAILED (failures=2)
+.....F.F.
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+AssertionError: {'indirectnoun': None, 'indirectprep': None, 'verb': 'LOOK', 'directprep': 'AT', 'args': None, 'directnoun': None}
+
+======================================================================
+FAIL: runTest (__main__.preparsemainTestCase2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 92, in runTest
+    assert inst.preparse(sentence)[1] == [["AT","ME"], {"verb":"LOOK","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":None}],inst.preparse(sentence)
+AssertionError: [['AT', 'ME'], {'indirectnoun': None, 'indirectprep': None, 'verb': 'LOOK', 'directprep': None, 'args': None, 'directnoun': None}]
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.000s
+
+FAILED (failures=2)
+.....F...
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+AssertionError: {'indirectnoun': None, 'indirectprep': None, 'verb': 'LOOK', 'directprep': 'AT', 'args': None, 'directnoun': None}
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.000s
+
+FAILED (failures=1)
+.....F...
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+AssertionError: {'indirectnoun': None, 'indirectprep': None, 'verb': 'LOOK', 'directprep': 'AT', 'args': None, 'directnoun': None}
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.000s
+
+FAILED (failures=1)
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 15, in ?
+    from Lib.mudParser import mudparse
+  File "c:\xvent\working\Lib\mudParser.py", line 45
+    if muddict["verb"] == "SAY":
+    ^
+SyntaxError: invalid syntax
+.....EEE.
+======================================================================
+ERROR: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 117, in parsemain
+    temp = self.preparse(cmd)
+  File "c:\xvent\working\Lib\mudParser.py", line 49, in preparse
+    temp.append(newtemp)
+NameError: global name 'newtemp' is not defined
+
+======================================================================
+ERROR: runTest (__main__.preparsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 85, in runTest
+    assert inst.preparse(sentence)[1] == {"verb":"SAY","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":"LOOK AT ME"},inst.preparse(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 49, in preparse
+    temp.append(newtemp)
+NameError: global name 'newtemp' is not defined
+
+======================================================================
+ERROR: runTest (__main__.preparsemainTestCase2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 92, in runTest
+    assert inst.preparse(sentence) == [["AT","ME"], {"verb":"LOOK","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":None}],inst.preparse(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 49, in preparse
+    temp.append(newtemp)
+NameError: global name 'newtemp' is not defined
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.000s
+
+FAILED (errors=3)
+.....F...
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+AssertionError: {'indirectnoun': None, 'indirectprep': None, 'verb': 'LOOK', 'directprep': 'AT', 'args': None, 'directnoun': None}
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.000s
+
+FAILED (failures=1)
+EE...F...
+======================================================================
+ERROR: runTest (__main__.getnounTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 63, in runTest
+    assert inst.getnoun(sentence) == ["PURPLE","BIRD","HOUSE",[None]],inst.getnoun(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 110, in getnoun
+    return temp
+NameError: global name 'temp' is not defined
+
+======================================================================
+ERROR: runTest (__main__.getnounTestCase2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 71, in runTest
+    assert inst.getnoun(sentence) == ["PURPLE","BIRD","HOUSE",["AT","MOVIES"]],"It's Broke Dude."
+  File "c:\xvent\working\Lib\mudParser.py", line 110, in getnoun
+    return temp
+NameError: global name 'temp' is not defined
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+AssertionError: {'indirectnoun': None, 'indirectprep': None, 'verb': 'LOOK', 'directprep': 'AT', 'args': None, 'directnoun': None}
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.000s
+
+FAILED (failures=1, errors=2)
+.....F...
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+AssertionError: {'indirectnoun': None, 'indirectprep': None, 'verb': 'LOOK', 'directprep': 'AT', 'args': None, 'directnoun': None}
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.000s
+
+FAILED (failures=1)
+.....F...
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+AssertionError: {'indirectnoun': None, 'indirectprep': None, 'verb': 'LOOK', 'directprep': 'AT', 'args': None, 'directnoun': None}
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.000s
+
+FAILED (failures=1)
+.....F...
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+AssertionError: {'indirectnoun': None, 'indirectprep': None, 'verb': 'LOOK', 'directprep': 'AT', 'args': None, 'directnoun': None}
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.000s
+
+FAILED (failures=1)
+.....F...
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+AssertionError: {'indirectnoun': None, 'indirectprep': None, 'verb': 'LOOK', 'directprep': 'AT', 'args': None, 'directnoun': None}
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.000s
+
+FAILED (failures=1)
+.....FE...
+======================================================================
+ERROR: runTest (__main__.parsemainTestCase2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 85, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOKe","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 121, in parsemain
+    prep, args= self.getprep(args)
+  File "c:\xvent\working\Lib\mudParser.py", line 83, in getprep
+    if cmd[0] in self.preposition:
+IndexError: list index out of range
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+AssertionError: {'indirectnoun': None, 'indirectprep': None, 'verb': 'LOOK', 'directprep': 'AT', 'args': None, 'directnoun': None}
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.000s
+
+FAILED (failures=1, errors=1)
+.....FE...
+======================================================================
+ERROR: runTest (__main__.parsemainTestCase2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 85, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 121, in parsemain
+    prep, args= self.getprep(args)
+  File "c:\xvent\working\Lib\mudParser.py", line 83, in getprep
+    if cmd[0] in self.preposition:
+IndexError: list index out of range
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+AssertionError: {'indirectnoun': None, 'indirectprep': None, 'verb': 'LOOK', 'directprep': 'AT', 'args': None, 'directnoun': None}
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.000s
+
+FAILED (failures=1, errors=1)
+.....FE...
+======================================================================
+ERROR: runTest (__main__.parsemainTestCase2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 85, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 122, in parsemain
+    prep, args= self.getprep(args)
+ValueError: need more than 0 values to unpack
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+AssertionError: {'indirectnoun': None, 'indirectprep': None, 'verb': 'LOOK', 'directprep': 'AT', 'args': None, 'directnoun': None}
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.000s
+
+FAILED (failures=1, errors=1)
+.....F....
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+AssertionError: {'indirectnoun': None, 'indirectprep': None, 'verb': 'LOOK', 'directprep': 'AT', 'args': None, 'directnoun': None}
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.000s
+
+FAILED (failures=1)
+..FF.E....
+======================================================================
+ERROR: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 123, in parsemain
+    prep, args= self.getprep(args)
+TypeError: unpack non-sequence
+
+======================================================================
+FAIL: runTest (__main__.getprepTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 50, in runTest
+    assert inst.getprep(sentence) == ["AT",["PURPLE","BIRD","HOUSE"]],"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.getprepTestCase2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 57, in runTest
+    assert inst.getprep(sentence) == [None,["PURPLE","BIRD","HOUSE"]],"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.015s
+
+FAILED (failures=2, errors=1)
+..FF.E....
+======================================================================
+ERROR: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 123, in parsemain
+    prep, args = self.getprep(args)
+TypeError: unpack non-sequence
+
+======================================================================
+FAIL: runTest (__main__.getprepTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 50, in runTest
+    assert inst.getprep(sentence) == ["AT",["PURPLE","BIRD","HOUSE"]],"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.getprepTestCase2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 57, in runTest
+    assert inst.getprep(sentence) == [None,["PURPLE","BIRD","HOUSE"]],"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.000s
+
+FAILED (failures=2, errors=1)
+..F..E....
+======================================================================
+ERROR: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 123, in parsemain
+    prep, args = self.getprep(args)
+TypeError: unpack non-sequence
+
+======================================================================
+FAIL: runTest (__main__.getprepTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 50, in runTest
+    assert inst.getprep(sentence) == ["AT",["PURPLE","BIRD","HOUSE"]],"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.000s
+
+FAILED (failures=1, errors=1)
+..F..E....
+======================================================================
+ERROR: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 123, in parsemain
+    prep, args = self.getprep(args)
+TypeError: unpack non-sequence
+
+======================================================================
+FAIL: runTest (__main__.getprepTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 50, in runTest
+    assert inst.getprep(sentence) == ["AT",["PURPLE","BIRD","HOUSE"]],"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.000s
+
+FAILED (failures=1, errors=1)
+..F..E....
+======================================================================
+ERROR: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 125, in parsemain
+    prep, args = self.getprep(args)
+TypeError: unpack non-sequence
+
+======================================================================
+FAIL: runTest (__main__.getprepTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 50, in runTest
+    assert inst.getprep(sentence) == ["AT",["PURPLE","BIRD","HOUSE"]],"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.000s
+
+FAILED (failures=1, errors=1)
+..F..E....
+======================================================================
+ERROR: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 127, in parsemain
+    prep, args = self.getprep(args)
+TypeError: unpack non-sequence
+
+======================================================================
+FAIL: runTest (__main__.getprepTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 50, in runTest
+    assert inst.getprep(sentence) == ["AT",["PURPLE","BIRD","HOUSE"]],"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.000s
+
+FAILED (failures=1, errors=1)
+..F..E....
+======================================================================
+ERROR: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 129, in parsemain
+    prep, args = self.getprep(args)
+TypeError: unpack non-sequence
+
+======================================================================
+FAIL: runTest (__main__.getprepTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 50, in runTest
+    assert inst.getprep(sentence) == ["AT",["PURPLE","BIRD","HOUSE"]],"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.000s
+
+FAILED (failures=1, errors=1)
+..F..E....
+======================================================================
+ERROR: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 129, in parsemain
+    prep, args = self.getprep(args)
+TypeError: unpack non-sequence
+
+======================================================================
+FAIL: runTest (__main__.getprepTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 50, in runTest
+    assert inst.getprep(sentence) == ["AT",["PURPLE","BIRD","HOUSE"]],"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.000s
+
+FAILED (failures=1, errors=1)
+..F..E....
+======================================================================
+ERROR: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 129, in parsemain
+    prep, args = self.getprep(args)
+TypeError: unpack non-sequence
+
+======================================================================
+FAIL: runTest (__main__.getprepTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 50, in runTest
+    assert inst.getprep(sentence) == ["AT",["PURPLE","BIRD","HOUSE"]],"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.000s
+
+FAILED (failures=1, errors=1)
+..F..EE...
+======================================================================
+ERROR: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 126, in parsemain
+    if prep is not None:
+NameError: global name 'prep' is not defined
+
+======================================================================
+ERROR: runTest (__main__.parsemainTestCase2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 85, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":None,"directnoun":None,"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 126, in parsemain
+    if prep is not None:
+NameError: global name 'prep' is not defined
+
+======================================================================
+FAIL: runTest (__main__.getprepTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 50, in runTest
+    assert inst.getprep(sentence) == ["AT",["PURPLE","BIRD","HOUSE"]],"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.000s
+
+FAILED (failures=1, errors=2)
+..F..F....
+======================================================================
+FAIL: runTest (__main__.getprepTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 50, in runTest
+    assert inst.getprep(sentence) == ["AT",["PURPLE","BIRD","HOUSE"]],"It's Broke Dude."
+AssertionError: It's Broke Dude.
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+AssertionError: {'indirectnoun': None, 'indirectprep': None, 'verb': 'LOOK', 'directprep': ['PURPLE', 'BIRD', 'HOUSE'], 'args': None, 'directnoun': None}
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.000s
+
+FAILED (failures=2)
+..F..F....
+======================================================================
+FAIL: runTest (__main__.getprepTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 50, in runTest
+    assert inst.getprep(sentence) == ["AT",["PURPLE","BIRD","HOUSE"]],inst.getprep(sentence)
+AssertionError: [None, ['PURPLE', 'BIRD', 'HOUSE']]
+
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+AssertionError: {'indirectnoun': None, 'indirectprep': None, 'verb': 'LOOK', 'directprep': ['PURPLE', 'BIRD', 'HOUSE'], 'args': None, 'directnoun': None}
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.000s
+
+FAILED (failures=2)
+..E..E....
+======================================================================
+ERROR: runTest (__main__.getprepTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 50, in runTest
+    assert inst.getprep(sentence) == ["AT",["PURPLE","BIRD","HOUSE"]],inst.getprep(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 88, in getprep
+    temp.append = cmd[0]
+AttributeError: 'list' object attribute 'append' is read-only
+
+======================================================================
+ERROR: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+  File "c:\xvent\working\Lib\mudParser.py", line 125, in parsemain
+    temp = self.getprep(args)
+  File "c:\xvent\working\Lib\mudParser.py", line 88, in getprep
+    temp.append = cmd[0]
+AttributeError: 'list' object attribute 'append' is read-only
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.016s
+
+FAILED (errors=2)
+.....F....
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+AssertionError: {'indirectnoun': None, 'indirectprep': None, 'verb': 'LOOK', 'directprep': 'AT', 'args': None, 'directnoun': None}
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.000s
+
+FAILED (failures=1)
+.....F....
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+AssertionError: {'indirectnoun': None, 'indirectprep': None, 'verb': 'LOOK', 'directprep': 'AT', 'args': None, 'directnoun': None}
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.000s
+
+FAILED (failures=1)
+.....F....
+======================================================================
+FAIL: runTest (__main__.parsemainTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./Tests/mudParseTest.py", line 78, in runTest
+    assert inst.parsemain(sentence) == {"verb":"LOOK","directprep":"AT","directnoun":["PURPLE","BIRD","HOUSE"],"indirectprep":None,"indirectnoun":None,"args":None},inst.parsemain(sentence)
+AssertionError: {'indirectnoun': None, 'indirectprep': None, 'verb': 'LOOK', 'directprep': 'AT', 'args': None, 'directnoun': None}
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.000s
+
+FAILED (failures=1)
