@@ -22,7 +22,7 @@ expanded="234.20061005231611,234.20061005195839,"><vh>@thin .\\Lib\\mudParser.py
 expanded="234.20061005231611.1,234.20061005231611.2,"><vh>@thin .\\Tests\\mudParseTest.py</vh></v>
 </v>
 <v t="234.20061013003017" a="E"><vh>Documents</vh>
-<v t="234.20061013003017.1" a="TV"><vh>@thin .\\docs\Changelog.txt</vh></v>
+<v t="234.20061013003017.1" a="V"><vh>@thin .\\docs\Changelog.txt</vh></v>
 </v>
 </vnodes>
 <tnodes>
