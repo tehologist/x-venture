@@ -1,0 +1,10 @@
+\begin{theindex}
+
+  \item Lib \textit{(package)}, \hyperpage{2}
+    \subitem Lib.env \textit{(module)}, \hyperpage{3}
+    \subitem Lib.mudParser \textit{(module)}, \hyperpage{4}
+      \subsubitem Lib.mudParser.mudparse \textit{(class)}, 
+		\hyperpage{4}
+    \subitem Lib.simple\_client \textit{(module)}, \hyperpage{5}
+
+\end{theindex}

@@ -11,7 +11,7 @@
 <v t="234.20061005225913" a="E"><vh>Buttons and settings</vh>
 <v t="234.20061005210354"><vh>@button epydoc</vh></v>
 <v t="234.20061005222732"><vh>@button unittest</vh></v>
-<v t="234.20061019181445" a="TV"><vh>@thin .\\Config\\epydoc_config.ini</vh></v>
+<v t="234.20061019181445"><vh>@thin .\\Config\\epydoc_config.ini</vh></v>
 </v>
 <v t="234.20061005225913.1" a="E"><vh>Libs</vh>
 <v t="234.20061005223719"><vh>@thin .\\Lib\\__init__.py</vh></v>
@@ -27,7 +27,7 @@ expanded="234.20061005231611,234.20061005195839,"><vh>@thin .\\Lib\\mudParser.py
 expanded="234.20061005231611.1,234.20061005231611.2,"><vh>@thin .\\Tests\\mudParseTest.py</vh></v>
 </v>
 <v t="234.20061013003017" a="E"><vh>Documents</vh>
-<v t="234.20061013003017.1"><vh>@thin .\\docs\Changelog.txt</vh></v>
+<v t="234.20061013003017.1" a="TV"><vh>@thin .\\docs\Changelog.txt</vh></v>
 </v>
 </vnodes>
 <tnodes>
