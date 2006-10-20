@@ -1,8 +1,0 @@
-\begin{theindex}
-
-  \item Lib \textit{(package)}, \hyperpage{2}
-    \subitem Lib.mudParser \textit{(module)}, \hyperpage{3}
-      \subsubitem Lib.mudParser.mudparse \textit{(class)}, 
-		\hyperpage{3}
-
-\end{theindex}
