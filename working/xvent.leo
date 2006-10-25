@@ -2,7 +2,7 @@
 <leo_file>
 <leo_header file_format="2" tnodes="0" max_tnode_index="0" clone_windows="0"/>
 <globals body_outline_ratio="0.5">
-	<global_window_position top="24" left="12" height="730" width="866"/>
+	<global_window_position top="22" left="217" height="730" width="866"/>
 	<global_log_window_position top="0" left="0" height="0" width="0"/>
 </globals>
 <preferences/>
@@ -23,8 +23,7 @@
 expanded="234.20061019180722,"><vh>@thin .\\Lib\\env.py</vh></v>
 <v t="234.20061019180722.3" a="E"
 expanded="234.20061019180722.4,234.20061024172236,"><vh>@thin .\\Lib\simpleClient.py</vh></v>
-<v t="234.20061024175708.3" a="E"
-expanded="234.20061024175708.4,"><vh>@thin .\\Lib\loginApp.py</vh></v>
+<v t="234.20061024175708.3"><vh>@thin .\\Lib\loginApp.py</vh></v>
 <v t="234.20061005194826"><vh>@thin .\\Lib\\mudParser.py</vh></v>
 </v>
 <v t="234.20061005225913.2"><vh>Tests</vh>
