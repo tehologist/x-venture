@@ -29,6 +29,7 @@ from copy import copy
 #@+node:234.20061005195839:class mudparse
 class mudparse:
     """Create instance then pass in string which returns a dictionary."""
+    
     def __init__(self):
         """Create dictionary."""
         
