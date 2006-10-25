@@ -1,5 +1,8 @@
 #@+leo-ver=4-thin
 #@+node:234.20061013003017.1:@thin .\\docs\Changelog.txt
+10/24 Finished implementation of simple client class.
+10/24 Created stub application base class, as well as loginapp.
+10/24 Renamed simple_client to simpleClient.
 10/19/2006 Added config file for epydoc, also added stub for simple client.
 10\18\06 Added stub module for helper classes.
 10\15\06 Implemented several unit tests, parser now passes all of them. The parser module is now complete enough to be usable.

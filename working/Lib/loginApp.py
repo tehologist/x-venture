@@ -13,13 +13,15 @@
 #@<< imports >>
 #@+middle:234.20061024175708.4:headers_footers
 #@+node:234.20061024175708.6:<< imports >>
+from Lib.application import application
+#@nonl
 #@-node:234.20061024175708.6:<< imports >>
 #@-middle:234.20061024175708.4:headers_footers
 #@nl
 #@+others
 #@+node:234.20061024175708.4:headers_footers
 #@+node:234.20061024175813:class login
-class login:
+class login(application):
     """Basic class for loggin into mud."""
 #@nonl
 #@-node:234.20061024175813:class login
