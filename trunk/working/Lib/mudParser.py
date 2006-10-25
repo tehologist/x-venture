@@ -30,6 +30,10 @@ from copy import copy
 class mudparse:
     """Create instance then pass in string which returns a dictionary."""
     
+
+        
+#@nonl
+#@+node:234.20061024181122:__init__
     def __init__(self):
         """Create dictionary."""
         
@@ -37,8 +41,8 @@ class mudparse:
         None, "indirectprep": None, "indirectnoun": None,"args":None}
         
         self.preposition = ["IN","ON","AT"]
-        
 #@nonl
+#@-node:234.20061024181122:__init__
 #@+node:234.20061012153541:preparse
     def preparse(self, cmd):
         """Parses commands to see if meet any special requirements before
