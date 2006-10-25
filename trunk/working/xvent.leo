@@ -9,8 +9,8 @@
 <find_panel_settings/>
 <vnodes>
 <v t="234.20061005225913" a="E"><vh>Buttons and settings</vh>
-<v t="234.20061019231137"><vh>Buttons</vh>
-<v t="234.20061005210354"><vh>@button epydoc</vh></v>
+<v t="234.20061019231137" a="E"><vh>Buttons</vh>
+<v t="234.20061005210354" a="TV"><vh>@button epydoc</vh></v>
 <v t="234.20061005222732"><vh>@button unittest</vh></v>
 </v>
 <v t="234.20061019231137.1"><vh>Configuration Files</vh>
@@ -39,7 +39,7 @@ expanded="234.20061019180722.4,234.20061024172236,"><vh>@thin .\\Lib\simpleClien
 
 import os
 os.chdir("c:\\xvent\\working")
-os.system("cmd /c epydoc.py --config .\config\epydoc_config.ini &gt;&gt; ./Logs/epylog.txt 2&gt;&amp;1")
+os.system("cmd /c epydoc.py --config .\config\epydoc_config.ini &gt; ./Logs/epylog.txt 2&gt;&amp;1")
 #os.system("cmd /c epydoc.py -o .\docs\libs\html ./Lib &gt;&gt; ./Logs/epylog.txt 2&gt;&amp;1")
 #os.system("cmd /c epydoc.py -o .\docs\libs\pdf --pdf ./Lib  &gt;&gt; ./Logs/epylog.txt 2&gt;&amp;1")
 c.frame.log.selectTab('Epydoc')
@@ -49,7 +49,7 @@ bleh.close()
 os.startfile('.\\docs\\libs\\html\\index.html')</t>
 <t tx="234.20061005222732">import os
 os.chdir("c:\\xvent\\working")
-os.system("cmd /c python ./Tests/mudParseTest.py &gt;&gt; .\Logs\unittest.txt 2&gt;&amp;1")
+os.system("cmd /c python ./Tests/mudParseTest.py &gt; .\Logs\unittest.txt 2&gt;&amp;1")
 c.frame.log.selectTab('Unit Test')
 bleh = open(".\\Logs\\unittest.txt")
 g.es(bleh.read(),tabName='Unit Test')
