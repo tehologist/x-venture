@@ -362,3 +362,26 @@ OSError: [Errno 2] No such file or directory: 'docs/api/html'
   [.........................................................................]
   [.........................................................................]
   [.........................................................................]
+  [.........Traceback (most recent call last):
+  File "c:\python24\scripts\epydoc.py", line 16, in ?
+    cli()
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 663, in cli
+    main(options, names)
+  File "C:\Python24\lib\site-packages\epydoc\cli.py", line 466, in main
+    add_submodules=(options.action!='text'))
+  File "C:\Python24\Lib\site-packages\epydoc\docbuilder.py", line 130, in build_doc_index
+    doc_pairs = _get_docs_from_items(items, introspect, parse, add_submodules)
+  File "C:\Python24\Lib\site-packages\epydoc\docbuilder.py", line 274, in _get_docs_from_items
+    doc_pairs += _get_docs_from_submodules(
+  File "C:\Python24\Lib\site-packages\epydoc\docbuilder.py", line 458, in _get_docs_from_submodules
+    d = _get_docs_from_module_file(
+  File "C:\Python24\Lib\site-packages\epydoc\docbuilder.py", line 411, in _get_docs_from_module_file
+    parse_doc = parse_docs(
+  File "C:\Python24\Lib\site-packages\epydoc\docparser.py", line 295, in parse_docs
+    process_file(module_doc)
+  File "C:\Python24\Lib\site-packages\epydoc\docparser.py", line 550, in process_file
+    for toktype, toktext, (srow,scol), (erow,ecol), line_str in tok_iter:
+  File "C:\Python24\lib\tokenize.py", line 229, in generate_tokens
+    raise IndentationError(
+IndentationError: unindent does not match any outer indentation level
+  [.........................................................................]
