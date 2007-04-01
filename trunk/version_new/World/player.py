@@ -1,11 +1,12 @@
 """Player class which represents in game character"""
 class player:
     """Initialize name attribute"""
-    def __init__(self, name, obj):
+    def __init__(self, name, id):
         self.name = name
-        self.obj = obj
+        self.id = id
         self.location = ""
         self.description = ""
+        self.isPlayer = true
 
     def do_say(self, args):
         pass
